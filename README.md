@@ -11,3 +11,8 @@ vi /etc/v2ray/config.json #修改配置文件
 sudo systemctl restart v2ray #重启v2ray
 service v2ray status #查看v2ray服务状态
 ```
+
+#### vscode
+```
+^\s*\n (去除空白行)
+```

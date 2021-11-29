@@ -16,3 +16,8 @@ service v2ray status #查看v2ray服务状态
 ```
 ^\s*\n (去除空白行)
 ```
+
+#### 复制vim的内容到Mac粘贴板
+```bash
+:%w !pbcopy
+```
